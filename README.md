@@ -38,12 +38,17 @@ Data fetched from Finnhub Stock API.
 
 #### Chart
 
+![Screenshot (56)](https://github.com/user-attachments/assets/635ec36f-13dc-4aa2-9bf7-011c018c2b78)
+
+
 Interactive area chart with buttons to control the duration (e.g., '1d', '3d', '1w', '1m', '6m', '1y', 'max').
 Full-screen mode available for detailed viewing.
 Tooltips show the price at the hovered point and the current price.
 Options to remove volume chart, price chart, or both.
 
 #### Statistics
+
+![image](https://github.com/user-attachments/assets/5e36e159-5987-454d-8d28-ff28d284387c)
 
 Displays key statistics such as:
 10-Day Average Trading Volume
@@ -55,10 +60,14 @@ Data fetched from Finnhub Stock API.
 
 #### Analysis
 
+![image](https://github.com/user-attachments/assets/1085e68c-a26a-41b1-b558-1e816078e13c)
+
 Shows the top 3 latest news articles related to the selected stock.
 Data fetched from Finnhub Stock API.
 
 #### Settings
+
+![Screenshot (55)](https://github.com/user-attachments/assets/8df1e352-0b91-4705-aa8b-e0a61ffea12e)
 
 Select the stock from a list of 6 top NASDAQ listed companies:
 Apple (AAPL)
@@ -67,4 +76,3 @@ NVIDIA (NVDA)
 Alphabet (GOOG)
 Amazon (AMZN)
 Meta (META)
-APIs
