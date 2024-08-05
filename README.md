@@ -1,5 +1,7 @@
 # Stock Market Dashboard
 
+![Screenshot (54)](https://github.com/user-attachments/assets/a5b18f29-e64f-465e-bce7-b6f3fdd0779c)
+
 Welcome to the Stock Market Dashboard! This guide will help you understand how to use and navigate the dashboard effectively. Whether you're a beginner or an experienced investor, this tool provides valuable insights into the stock market.
 
 ## Overview
