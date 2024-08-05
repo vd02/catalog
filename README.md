@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Stock Market Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Stock Market Dashboard! This guide will help you understand how to use and navigate the dashboard effectively. Whether you're a beginner or an experienced investor, this tool provides valuable insights into the stock market.
 
-## Available Scripts
+## Overview
+The Stock Market Dashboard is a comprehensive tool built using React and Joy UI, designed to offer real-time financial data and analysis. It leverages powerful APIs to bring you up-to-date information on stock prices, market trends, and financial statistics.
 
-In the project directory, you can run:
+## Key Features
+Real-Time Stock Prices: Get live updates on stock prices with visual indicators showing price increases (green) and decreases (red).
+Summary: A quick overview of the selected stock.
+Chart: Interactive area chart with duration controls, full-screen mode, and tooltips.
+Statistics: Key financial statistics like 10-day average trading volume, 52-week high and low, beta, etc.
+Analysis: Latest news related to the selected stock.
+Settings: Easily switch between 6 top NASDAQ listed companies.
 
-### `npm start`
+## Technologies Used
+Frontend: React with Joy UI
+APIs:
+Finnhub Stock API for summary, analysis, and statistics.
+Alpha Vantage for chart data.
+Charting Library: Chart.js for flexible and interactive stock charts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Real-Time Price
+The dashboard displays the current stock price of the selected company. The price change is visually indicated with green (positive) or red (negative) colors.
 
-### `npm test`
+### Tabs
+#### Summary
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Provides a brief overview of the selected stock.
+Data fetched from Finnhub Stock API.
 
-### `npm run build`
+#### Chart
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Interactive area chart with buttons to control the duration (e.g., '1d', '3d', '1w', '1m', '6m', '1y', 'max').
+Full-screen mode available for detailed viewing.
+Tooltips show the price at the hovered point and the current price.
+Options to remove volume chart, price chart, or both.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Statistics
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Displays key statistics such as:
+10-Day Average Trading Volume
+52-Week High and Low
+52-Week Low Date
+52-Week Price Return Daily
+Beta
+Data fetched from Finnhub Stock API.
 
-### `npm run eject`
+#### Analysis
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Shows the top 3 latest news articles related to the selected stock.
+Data fetched from Finnhub Stock API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Settings
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Select the stock from a list of 6 top NASDAQ listed companies:
+Apple (AAPL)
+Microsoft (MSFT)
+NVIDIA (NVDA)
+Alphabet (GOOG)
+Amazon (AMZN)
+Meta (META)
+APIs
