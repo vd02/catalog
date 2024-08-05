@@ -13,7 +13,7 @@ import Analysis from "./TabContent/AnalysisComponent/Analysis.jsx";
 const StockDashboard = () => {
   const [data, setData] = useState([]);
   const [priceData, setPriceData] = useState([]);
-  const [duration, setDuration] = useState("1y"); // Default duration
+  const [duration, setDuration] = useState("6m"); // Default duration
   const [loading, setLoading] = useState(true);
   const [selectedTab, setSelectedTab] = useState(1); // Default to the Chart tab
   const [selectedSymbol, setSelectedSymbol] = useState("AAPL"); // Default symbol
