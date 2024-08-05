@@ -30,6 +30,9 @@ The dashboard displays the current stock price of the selected company. The pric
 ### Tabs
 #### Summary
 
+![image](https://github.com/user-attachments/assets/4cb66d14-0215-41e3-a123-53f5ed7fbb49)
+
+
 Provides a brief overview of the selected stock.
 Data fetched from Finnhub Stock API.
 
