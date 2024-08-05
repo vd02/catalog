@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./assets/fonts/FontsFree-Net-Circular-Std-Book.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Tabs {
+  margin: 20px;
+  padding: 10px;
+  background-color: white !important;
+}
+
+.TabList {
+  border-bottom: 2px solid #ca1d1d;
+}
+
+.Tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-family: "MyCustomFont";
+}
+
+.Tab.active {
+  border-bottom: 3px solid #4b40ee;
+  color: #4b40ee;
+  font-weight: bold;
+}
+
+.TabContent {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "MyCustomFont";
+}
+
+.bg-color-white {
+  background-color: white !important;
+  padding-top: 0 !important;
+  font-family: "MyCustomFont";
+}

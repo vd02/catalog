@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../assets/fonts/FontsFree-Net-Circular-Std-Book.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Price {
+  position: absolute;
+  top: 10px;
+}
+
+.Price .Title {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.Usd {
+  padding-top: 15px;
+  color: #bdbebf;
+  font-size: 24px;
+  font-family: "MyCustomFont";
+  font-weight: 400;
+}
+
+.Price .PriceDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PriceDetails .PriceAmount {
+  font-size: 70px;
+  font-family: "MyCustomFont";
+  font-weight: 400;
+  color: #1a243a;
+}
+
+.PriceChange {
+  position: absolute;
+  left: 0;
+  top: 85px;
+  font-size: 18px;
+  font-family: "MyCustomFont";
+  font-weight: 400;
+}
+
+.PriceChange.positive {
+  color: #67bf6b; /* Green for positive values */
+}
+
+.PriceChange.negative {
+  color: #ff4c4c; /* Red for negative values */
+}

@@ -1,0 +1,23 @@
+.stock-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.price-container {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 80px; /* Space between Price and StockChart */
+  padding: 25px;
+}
+
+.chart-container-parent {
+  width: 100%;
+  max-width: 800px;
+}
+
+.Tabs {
+  width: 100%;
+  max-width: 800px;
+}

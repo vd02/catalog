@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../../assets/fonts/FontsFree-Net-Circular-Std-Book.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stock-chart {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.chart-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "MyCustomFont";
+}
+
+.left-controls {
+  display: flex;
+}
+
+.left-controls button,
+.right-controls button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 5px;
+  font-family: "MyCustomFont";
+}
+
+.left-controls button img,
+.right-controls button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.right-controls {
+  display: flex;
+  align-items: center;
+}
+
+.duration-controls button {
+  background: white;
+  color: #6f7177;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-family: "MyCustomFont";
+}
+
+.duration-controls button.active {
+  background: #4b40ee;
+  color: white;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chart-container {
+  position: relative;
+  /* height: 80vh; Adjust the height as necessary */
+  padding: 3px; /* Add padding to create space for the border */
+  border-left: 1px solid #e6e8eb;
+  border-right: 1px solid #e6e8eb;
+  border-bottom: 1px solid #e6e8eb;
+  box-sizing: border-box;
+}
+
+.custom-tooltip {
+  position: absolute;
+  right: -60px;
+  transform: translateY(-50%);
+  background: #1a243a;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-family: "MyCustomFont";
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+.persistent-tooltip {
+  position: absolute;
+  right: -60px;
+  transform: translateY(-50%);
+  background: #4b40ee;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-family: "MyCustomFont";
+  padding: 2px 4px;
+  white-space: nowrap;
+}

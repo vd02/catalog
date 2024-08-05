@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Flow+Circular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel:wght@500&display=swap");
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./assets/fonts/FontsFree-Net-Circular-Std-Book.ttf")
+    format("truetype");
+}
+
+.custom-font {
+  font-family: "MyCustomFont", sans-serif;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-flow-circular: "Flow Circular";
+  --font-abel: Abel;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-blueviolet: #4b40ee;
+  --color-gray: #1a243a;
+  --color-darkgray: #999;
+  --color-dimgray: #6f7177;
+  --color-mediumslateblue: #7066ff;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-12xl: 31px;
+  --gap-mini: 15px;
+  --gap-59xl: 78px;
+  --gap-37xl: 56px;
+  --gap-lgi-3: 19.3px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-41xl: 60px;
+  --padding-13xl: 32px;
+  --padding-11xl: 30px;
+  --padding-8xs: 5px;
+  --padding-sm: 14px;
+  --padding-smi: 13px;
+  --padding-10xs: 3px;
+  --padding-xs: 12px;
+  --padding-mid: 17px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+}
