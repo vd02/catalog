@@ -1,5 +1,7 @@
 # Stock Market Dashboard
 
+## Link to use the Dashboard: https://catalog-stock-dashboard.netlify.app/
+
 ![Screenshot (54)](https://github.com/user-attachments/assets/a5b18f29-e64f-465e-bce7-b6f3fdd0779c)
 
 Welcome to the Stock Market Dashboard! This guide will help you understand how to use and navigate the dashboard effectively. Whether you're a beginner or an experienced investor, this tool provides valuable insights into the stock market.
@@ -16,11 +18,13 @@ Analysis: Latest news related to the selected stock.
 Settings: Easily switch between 6 top NASDAQ listed companies.
 
 ## Technologies Used
-Frontend: React with Joy UI
-APIs:
+### Frontend:
+React with Joy UI
+### APIs:
 Finnhub Stock API for summary, analysis, and statistics.
 Alpha Vantage for chart data.
-Charting Library: Chart.js for flexible and interactive stock charts.
+### Charting Library:
+Chart.js for flexible and interactive stock charts.
 
 ## Usage
 
